@@ -1,0 +1,88 @@
+ 
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    background: url("https://s3.envato.com/files/158554811/1_Mountain_Dark_Grey.jpg");
+    width: 100%;
+}
+th {
+    text-align: center;
+}
+.table {
+    margin: 0;
+}
+
+a:hover {
+    background: black;
+    color: white;
+}
+.container {
+    margin-top: 35px;
+    /* height: 100%; */
+}
+
+.card-img-top {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    margin-top: 5px;
+}
+
+hr {
+    border: 5px solid gray;
+}
+
+
+.paragraph {
+    text-align: center;
+}
+form {
+    margin-top: 40px; 
+    margin-left: 30px;  
+    
+}
+.form {
+    margin: 12px;
+    
+}
+
+
+img {
+    width: 600px;
+    height: auto;   
+    position: relative;
+    margin: 5px;
+}
+ .caption {
+    position: absolute; 
+    margin-bottom: 30px;
+    
+}
+.card {
+    width: 80%;
+    padding: 0;
+    margin: 5px;    
+
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    overflow:hidden;
+    /* min-height: 100%; */
+ }  
+.button {
+    margin-bottom: 35px;
+}
+.card-img-overlay {
+    margin: 35px;
+    padding: 0 auto;
+    position: absolute;
+}
+h2 {
+   margin-top: 20px;
+}
