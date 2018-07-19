@@ -2,10 +2,11 @@
 * {
     box-sizing: border-box;
 }
-body {
+body, html {
     font-size: 18px;
     background: url("https://s3.envato.com/files/158554811/1_Mountain_Dark_Grey.jpg");
     width: 100%;
+    height: 100%;
 }
 th {
     text-align: center;
@@ -37,6 +38,7 @@ hr {
 
 .paragraph {
     text-align: center;
+
 }
 form {
     margin-top: 40px; 

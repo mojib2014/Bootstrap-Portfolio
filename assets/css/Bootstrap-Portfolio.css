@@ -1,0 +1,147 @@
+/* general styling */
+body{
+/* style.css is not located in same folder as html */
+    background: url("../images/background.png");
+    background-repeat: repeat;
+    margin:0px;
+    color:rgba(119, 119 ,119, 1);
+    height: 100%;
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+
+nav{
+    background: rgba(255, 255 ,255, 1);
+    border-bottom: 2px solid #cccccc;
+}
+.container{
+    max-width: 960px;
+}
+
+.btn-primary{
+    background-color: #4aaaa5;
+    color: rgba(255, 255 ,255, 1);
+    border:none;
+    font-size:23px;
+} 
+
+.nav-link{
+    padding:0;
+}
+
+.navbar-collapse{
+    position: relative;
+    z-index: 1;
+    color:#666666;
+}
+
+/* main boddy */
+.bio-box{
+    max-width: 100%;
+    width: 960px;
+    background-color:#ffffff;
+    border: 1px solid #dddddd; 
+    border: 1px solid #dddddd; 
+    margin: 20px auto;
+    padding: 35px;
+}
+
+.bio-subbox{
+    height:30px;
+}
+
+.media #firstP::first-letter{
+    color: rgb(77, 74, 74);
+    float: left;
+    font-family: Georgia;
+    font-size: 35px;
+    line-height: 20px;
+    padding-right: 2px;
+    padding-left: 0px;
+    padding-top: 3px;
+}
+
+
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* sticky footer */
+
+footer{
+    background-color:#666666;
+    color: #dddddd;
+    height: 70px;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
+
+/* portfolio */
+
+
+section{
+    float: left;
+    margin: 30px;
+}
+
+.frame{
+    position: relative;
+}
+
+
+h3{
+    position: absolute;
+    bottom: 8px;
+    height: 50px;
+    width:100%;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 4px;
+    text-align: center;
+}
+
+h6{
+    line-height: 70px;
+}
+
+@media screen and (max-width:870px){
+    .btn-primary{
+        font-size:20px;
+    }
+    .aboutme{
+        font-size:20px;
+    }
+    .media img{
+        height:100px;
+        width: 90px;
+    }
+}
+@media screen and (max-width:610px){
+    .btn-primary{
+        font-size:10px;
+    }
+    .aboutme{
+        font-size:15px;
+    }
+    .media img{
+        height:100px;
+        width: 90px;
+    }
+}
+
+
+section {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#description {
+    overflow: auto;
+    height: 145px;
+}
