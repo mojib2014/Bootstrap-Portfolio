@@ -1,6 +1,6 @@
 # Mojib Mohammad Portfolio
 
-Deployed Site: .
+Deployed Site: https://mojib2014.github.io/Bootstrap-Portfolio/index.html.
 
 This is the portfolio for Mojib Mohammad.
 
